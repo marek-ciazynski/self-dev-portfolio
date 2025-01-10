@@ -1,0 +1,42 @@
+---
+import { Icon } from "astro-icon/components";
+---
+
+<header class="relative flex items-center w-full h-16 px-8 bg-slate-50">
+  <nav>
+    <ul class="flex flex-row">
+      <li class="px-2">
+		<a href="/">My work</a>
+	</li>
+      <li class="px-2">
+		<a href="/contact">Contact</a>
+	</li>
+    </ul>
+  </nav>
+
+  <div class="grow text-2xl text-center">
+	<div class="absolute text-center left-1/2 -translate-x-1/2 -translate-y-1/2">
+		<a href="/">Huei Wang</a>
+	</div>
+  </div>
+
+  <div>
+    <ul class="flex flex-row gap-4 text-xl">
+      <li>
+        <a href="http://www.instagram.com/wang_fotografia">
+          <Icon name="fa6-brands:instagram" />
+        </a>
+      </li>
+      <li>
+        <a href="http://www.behance.net/wang_fotografia">
+          <Icon name="fa6-brands:behance" />
+        </a>
+      </li>
+      <li>
+        <a href="http://www.facebook.com/wang_fotografia">
+          <Icon name="fa6-brands:facebook" />
+        </a>
+      </li>
+    </ul>
+  </div>
+</header>

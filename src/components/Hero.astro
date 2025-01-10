@@ -1,0 +1,48 @@
+---
+
+---
+
+<!-- TODO change big padding for responsive widths -->
+<section
+  class="relative  h-[90vh] flex flex-col justify-center items-center text-center p-96 bg-slate-700 text-white"
+>
+  <h1 class="text-6xl mb-8">Huei Wang</h1>
+  <p>
+    Hi, I'm Huei Wang. I'm a professional wedding photographer from China. I
+    love capturing moments and creating memories for my clients. I'm&nbsp;passionate
+    about photography and I'm always looking for new ways to improve my skills.
+    I believe that every photo tells a story, and I strive to capture the
+    essence of each moment in my work.
+  </p>
+
+  <!-- <ScrollDownArrow /> -->
+  <div class="scroll-down-arrow"><div></div></div>
+</section>
+
+<style lang="scss">
+  .scroll-down-arrow {
+    $size: 30px;
+    $thickness: 2px;
+    $color: #fff;
+    $hover-distance: 8px;
+
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: #{$size / 2};
+
+    & > div {
+      transform: rotate(45deg);
+      width: $size;
+      height: $size;
+      border-right: $thickness solid $color;
+      border-bottom: $thickness solid $color;
+      transition: transform 0.3s ease;
+    }
+
+    &:hover > div {
+      transform: rotate(45deg) translate($hover-distance, $hover-distance);
+    }
+  }
+</style>
