@@ -1,4 +1,5 @@
-# Astro Starter Kit: Basics
+# Self-dev Portfolio
+[![Netlify Status](https://api.netlify.com/api/v1/badges/711b2942-b455-4dc1-91d4-840b914422fa/deploy-status)](https://app.netlify.com/sites/bucolic-gumdrop-35bc21/deploys)
 
 ```sh
 npm create astro@latest -- --template basics
